@@ -32,7 +32,7 @@ class _QuoteListState extends State<QuoteList> {
       backgroundColor: Colors.grey[200],
       appBar: AppBar(
         title: Text('Citations inspirantes'),
-        backgroundColor: Colors.red,
+        backgroundColor: Color.fromARGB(255, 63, 54, 244),
         centerTitle: true,
       ),
       body: Column(
