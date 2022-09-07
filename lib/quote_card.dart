@@ -15,12 +15,12 @@ class QuoteCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text(
-                quote.text,
+                quote!.text,
                 style: TextStyle(fontSize: 20.0, color: Colors.grey[600]),
               ),
               SizedBox(height: 10),
               Text(
-                quote.author,
+                quote!.author,
                 style: TextStyle(fontSize: 15.0, color: Colors.grey[800]),
               )
             ],
